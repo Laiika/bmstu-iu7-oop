@@ -32,4 +32,3 @@ void Cabin::slot_cabin_stop()
     state = WAIT;
     emit signal_doors_open();
 }
-
